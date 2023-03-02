@@ -1,5 +1,57 @@
-* {
+:root {
+	--margin_all: 4px;
+	font-size: 16;
+}
+.color_box {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+}
+.header {
+	width: 100vw;
+	height: 20vh;
+	background-color: rgb(88, 8, 88);
+	position: relative;
+}
+.main_section {
+	width: 100vw;
+	height: 60vh;
+	display: flex;
+	justify-content: space-between;
+}
+.main_section_red {
+	background-color: red;
+	width: 20%;
+	margin: 4px 0 4px 0;
+}
+.main_section_yellow_left {
+	background-color: yellow;
+	width: 30%;
+	margin: 4px 0 4px 0px;
+	border: 4px solid rgb(216, 157, 10);
+}
+.main_section_yellow_right {
+	background-color: yellow;
+	width: 30%;
+	margin: 4px 0 4px 4px;
+	border: 4px solid rgb(216, 157, 10);
+}
+.main_section_green {
+	background-color: green;
+	width: 20%;
+	margin: 4px 0 4px 4px;
+}
+.footer_area {
+	width: 100vw;
+	height: 20vh;
+	background-color: blue;
+}
+.logo_text {
+	background-color: grey;
+	display: inline-block;
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	width: 3rem;
+	padding: 0.5rem;
 }
